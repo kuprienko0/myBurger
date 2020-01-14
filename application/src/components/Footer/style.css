@@ -1,0 +1,15 @@
+.footer {
+    background: #1b1e21;
+    height: auto;
+    min-height: 7vh;
+    box-shadow: 0 0 12px rgba(256, 256, 256, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: #c8cbcf;
+    font-size: 12px;
+}
+
+

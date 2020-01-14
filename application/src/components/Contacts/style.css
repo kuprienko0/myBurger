@@ -1,0 +1,116 @@
+.contacts{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background: #1b1e21;
+}
+.contacts .left-contact-info{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: #1b1e21;
+
+}
+.contacts .left-contact-info .info{
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+.contacts .left-contact-info .info .all-social {
+   width: 300px;
+    display: flex;
+}
+.contacts .left-contact-info .info .all-social .social{
+    margin: 0 20px;
+    background: #343a40;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts .left-contact-info .info .all-social .social a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts .left-contact-info .info .all-social .social img{
+    width: 20px;
+    position: center;
+}
+.contacts .left-contact-info .info h2{
+    color: white;
+}
+.contacts .left-contact-info .info ul li span{
+    color: white;
+    font-family: "Work Sans", Arial, sans-serif;
+}
+.contacts .left-contact-info .info ul .phone{
+    padding: 5px 20px;
+}
+.contacts .left-contact-info .info ul .phone img{
+    width: 32px;
+    height: 25px;
+}
+.contacts .left-contact-info .info div{
+    display: flex;
+    width: 50%;
+    padding: 5px;
+    align-items: center;
+}
+.contacts .left-contact-info .info div img{
+    width: 50px;
+    height: 40px;
+    padding-right: 10px;
+}
+.contacts .left-contact-info .info div p{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Bell MT";
+    align-items: center;
+    color: white;
+}
+
+.contacts .left-contact-info .map{
+    width: 100%;
+    height: 250px;
+}
+.contacts .right{
+    width: 35%;
+    height: auto;
+    padding: 20px;
+    background: #FFFFF0;
+    border-radius: 5px;
+}
+.contacts .right .form div{
+    margin-bottom: 20px;
+}
+.contacts .right .form h1{
+    font-size: 18px;
+
+}
+.contacts .right .form p{
+    width: 90%;
+    float: left;
+    color: #999;
+    display: contents!important;
+    margin: 0;
+}
+.contacts .right .form input{
+    width: 100%;
+}
+.contacts .right .form textarea{
+    width: 400px;
+    max-width: 400px;
+    min-width: 400px;
+    height: 100px;
+}
+.contacts .right .confirm{
+    float: none !important;
+    width: 100%;
+}

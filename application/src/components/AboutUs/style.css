@@ -1,0 +1,99 @@
+.about-us-main{
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+.background
+{
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.main-bg
+{
+    overflow: hidden;
+    position: relative;
+    padding: 25px;
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+    box-shadow: -2px 0px 10px 2px #00000061;
+}
+.main-bg::before
+{
+    content: '';
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    z-index: 10;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+.about-us-main.background{
+    background-image: url("../../img/bg1.jpg");
+    background-attachment: fixed;
+}
+.about-us.main-bg::before{
+    background-image: url("../../img/bg1.jpg");
+}
+.about-us {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px;
+}
+.about-us .chef-img{
+    width: 25%;
+    z-index: 20;
+    position: relative;
+}
+.about-us .history{
+    width: 30%;
+    z-index: 20;
+    position: relative;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+}
+.about-us .history .history-text, .about-restaurant-text{
+    background: #50575e78;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-us .history p{
+    font-size: 16px;
+    color: #c8cbcf;
+}
+.about-us .history img{
+    width: 300px;
+    margin: 60px 20px;
+
+}
+.about-us .about-restaurant{
+    width: 30%;
+    z-index: 20;
+    position: relative;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.about-us .about-restaurant img{
+    width: 300px;
+    margin: 40px 20px;
+}
+.about-us .about-restaurant p {
+    font-size: 16px;
+    color: #c8cbcf;
+}

@@ -1,0 +1,73 @@
+.stocks{
+    background-image: url("../../img/stocks.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 20px 20px 20px ;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+}
+.stocks h3{
+   color: #fff;
+
+}
+.stocks .stocks-wrap{
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.stocks .stocks-wrap .stocks-item{
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+    border: 1px solid #343a40;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background: #2a2a2ad1;
+    display: flex;
+    transition: 1s;
+}
+.stocks .stocks-item:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.63);
+    -moz-box-shadow: 0 0 10px rgba(255, 255, 255, 0.63);
+    -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.63);
+    width: 100%;
+}
+.stocks .stocks-wrap .stocks-item .stocks-img{
+    padding: 20px;
+    width: 30%;
+    height: 300px;
+    overflow: hidden;
+}
+.stocks .stocks-wrap .stocks-item .stocks-img img{
+    height: 100%;
+}
+.stocks .stocks-wrap .stocks-item .stocks-info{
+    padding: 20px;
+    width: 70%;
+}
+.stocks .stocks-wrap .stocks-item .stocks-info h2{
+    transition: 1s;
+    color: #c8cbcf;
+    font-size: 30px;
+}
+.stocks .stocks-wrap .stocks-item:hover .stocks-info h2{
+    font-size: 38px;
+}
+.stocks .stocks-wrap .stocks-item .stocks-info p{
+    transition: 1s;
+    color: #c8cbcf;
+    font-size: 16px;
+}
+.stocks .stocks-wrap .stocks-item:hover .stocks-info p{
+    font-size: 18px;
+}
